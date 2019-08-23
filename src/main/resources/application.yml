@@ -4,11 +4,6 @@ server:
 spring:
   application:
     name: eureka-server
-  freemarker:
-    suffix: .ftl
-  resources:
-    static-locations: ["classpath:/META-INF/resources/","classpath:/resources/","classpath:/static/","classpath:/public/","classpath:/templates/"]
-
 
 eureka:
   instance:
@@ -22,4 +17,11 @@ eureka:
   server:
     enable-self-preservation: false
   dashboard:
-    path: /eureka
+    enabled: true
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
