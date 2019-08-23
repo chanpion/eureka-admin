@@ -30,7 +30,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li>
-                        <a target="_self" href="/">
+                        <a target="_self" href="/index">
                             <i class="fa fa-list"></i>
                             <span>集群列表</span>
                         </a>
@@ -38,7 +38,7 @@
                 </ul>
             </li>
             <li>
-                <a target="_self" href="/">
+                <a target="_self" href="/index">
                     <i class="fa fa-cog"><span>配置管理</span> </i>
                 </a>
             </li>

@@ -73,6 +73,13 @@
                                                 </#list>
                                               </#list>
                                               </td>
+                                              <td>
+                                                  <div class="btn-group">
+                                                      <button type="button" class="btn btn-default">pause</button>
+                                                      <button type="button" class="btn btn-default">resume</button>
+                                                      <button type="button" class="btn btn-default">shutdown</button>
+                                                  </div>
+                                              </td>
                                           </tr>
                                         </#list>
                                       <#else>
